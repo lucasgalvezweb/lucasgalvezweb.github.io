@@ -34,18 +34,21 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Bienvenido <br /><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Soy Lucas Galvez</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Bienvenido <br /><span className="bg-clip-text text-transparent bg-green-700">Soy Lucas Galvez</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Desarrollador de software enfocado en soluciones, dispuesto a explorar y escuchar diferentes formas para resolver problemas y satisfacer necesidades. Considero importante documentar mi aprendizaje durante todo el proceso para construir una base de conocimientos. No tengo preferencia por ningún marco de trabajo, tecnología o lenguaje de programación en particular. Soy flexible y disfruto colaborar con otros para lograr mejores resultados.</p>
+              <p className="text-sm lg:text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Desarrollador de software enfocado en soluciones, dispuesto a explorar y escuchar diferentes formas para resolver problemas y satisfacer necesidades. Considero importante documentar mi aprendizaje durante todo el proceso para construir una base de conocimientos. No tengo preferencia por ningún marco de trabajo, tecnología o lenguaje de programación en particular. Soy flexible y disfruto colaborar con otros para lograr mejores resultados.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a target='_blank' className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://github.com/lucasgalvezweb">Ver Git Hub</a>
+                  <a target='_blank' className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://github.com/lucasgalvezweb">Git Hub</a>
                 </div>
                 <div>
-                  <a target='_blank' className="btn text-white bg-gray-900 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:ml-4" href="https://www.linkedin.com/in/lucas-g%C3%A1lvez-chamorro-0b98791a3/">Ver LinkedIn</a>
+                  <a target='_blank' className="btn text-white bg-green-700 hover:bg-green-500 w-full mb-4 sm:w-auto sm:ml-4" href="https://wa.me/+5193093875">WhatsApp</a>
                 </div>
                 <div>
-                  <a target='_blank' className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 sm:ml-4" href="https://github.com/lucasgalvezweb">Ver Indeed</a>
+                  <a target='_blank' className="btn text-white bg-orange-500 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:ml-4" href="tel:+5193093875">Celular</a>
+                </div>
+                <div>
+                  <a target='_blank' className="btn text-white bg-gray-900 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 sm:ml-4" href="mailto:lucasgalch@gmail.com">Correo</a>
                 </div>
               </div>
             </div>
