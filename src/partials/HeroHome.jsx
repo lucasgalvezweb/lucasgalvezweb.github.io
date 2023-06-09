@@ -42,10 +42,10 @@ function HeroHome() {
                   <a target='_blank' className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://github.com/lucasgalvezweb">Git Hub</a>
                 </div>
                 <div>
-                  <a target='_blank' className="btn text-white bg-green-700 hover:bg-green-500 w-full mb-4 sm:w-auto sm:ml-4" href="https://wa.me/+5193093875">WhatsApp</a>
+                  <a target='_blank' className="btn text-white bg-green-700 hover:bg-green-500 w-full mb-4 sm:w-auto sm:ml-4" href="https://wa.me/+51930937875">WhatsApp</a>
                 </div>
                 <div>
-                  <a target='_blank' className="btn text-white bg-orange-500 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:ml-4" href="tel:+5193093875">Celular</a>
+                  <a target='_blank' className="btn text-white bg-orange-500 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:ml-4" href="tel:+51930937875">Celular</a>
                 </div>
                 <div>
                   <a target='_blank' className="btn text-white bg-gray-900 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 sm:ml-4" href="mailto:lucasgalch@gmail.com">Correo</a>
