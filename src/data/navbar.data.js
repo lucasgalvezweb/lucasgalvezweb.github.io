@@ -33,7 +33,7 @@ export const listMenu = [
         name: '+ Sobre mí',
         route: '',
         scrollTo: 'aboutme',
-        isShown: true
+        isShown: false
     },
     {
         name: 'Mini Apps',
