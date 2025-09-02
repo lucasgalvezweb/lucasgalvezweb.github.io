@@ -70,7 +70,7 @@ export const Plans = () => {
                             wpMessage = 'Hola, necesito una web para mi negocio' 
                         }, index) => (
                             <div className={`mx-0 ${isVisible ? 'animate-fade-up' : ''} animate-duration-900 animate-delay-400`} key={index}>
-                                <div className={`text-white h-[580px] text-center shadow-xl  mx-4 mb-6 rounded-xl flex flex-col border-neutral-100 border-2`}>
+                                <div className={`text-white h-auto text-center shadow-xl  mx-4 mb-6 rounded-xl flex flex-col border-neutral-100 border-2`}>
                                     <div className={`py-4 px-4 bg-${color} rounded-t-xl`}>
                                         <h1 className='text-2xl'>{title}</h1>
                                         <div className='align-kit-center my-2'>
@@ -82,11 +82,11 @@ export const Plans = () => {
                                         </div>
                                         <div className='align-kit-center my-2'>
                                             <hr className='w-[70%]' />
-                                        </div> */}
+                                        </div> 
                                         <div className='flex flex-col mt-4 italic'>
                                             <span>Entrega: {timeReady}</span>
                                             <span>Soporte: {support}</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className='px-6 text-t2-dark-silver'>
                                         <ul className='py-4 text-left'>

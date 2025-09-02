@@ -22,7 +22,6 @@ export const HomePage = () => {
             <Method />
             <Plans />
             <Services />
-            <AboutMe />
             <div className='fixed z-50 bottom-8 right-8 animate-bounce'>
                 <WhatsAppButton wpIcon={wpIcon} wpNumber={global.phone} wpIconWidth="45" />
             </div>

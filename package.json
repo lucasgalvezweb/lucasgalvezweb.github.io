@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && rm -rf docs && mv dist docs",
     "serve": "npm run build && http-server dist/",
     "git-dev": "git add . && git commit -m \"fast fix commit from dev branch\" && git push origin dev-lucas",
     "git-prod": "git add . && git commit -m \"fast fix commit\" && git push origin main",
