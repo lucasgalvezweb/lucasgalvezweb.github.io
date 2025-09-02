@@ -1,0 +1,360 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Global */
+html {
+    color: #454545;
+}
+
+/* Themes */
+
+/* To TEST new color palete */
+$t1-first: #000000;
+$t1-second: #150050;
+$t1-third: #3F0071;
+$t1-fourth: #610094;
+$t1-fifth: #03e2dc;
+$t1-sixth: #f49c24;
+
+/* $t1-first: #4E6E81;
+$t1-second: #F9DBBB;
+$t1-third: #FF0303;
+$t1-fourth: #2E3840; */
+
+$t2-first: #0F0F0F;
+$t2-second: #2b2f30;
+$t2-third: #005B41;
+$t2-fourth: #008170;
+$t2-fifth: #512c14;
+$t2-sixth: #22afc0;
+
+.bg-cc-first {
+    background-color: $t1-first;
+}
+
+.bg-cc-second {
+    background-color: $t1-second;
+}
+
+.bg-cc-third {
+    background-color: $t1-third;
+}
+
+.bg-cc-fourth {
+    background-color: $t1-fourth;
+}
+
+.bg-cc-fifth {
+    background-color: $t1-fifth;
+}
+
+.bg-cc-sixth {
+    background-color: $t1-sixth;
+}
+
+.bg-cc-gray {
+    background-color: #e9e9e9;
+}
+
+.bg-t2-green {
+    background-color: $t2-third;
+}
+
+.bg-t2-dark-silver {
+    background-color: $t2-second;
+}
+
+/* Colors */
+
+.bg-orange, .bg-warning {
+    background-color: $t1-sixth;
+}
+
+.bg-success {
+    background-color: #40C33D;
+}
+
+.bg-primary {
+    background-color: #0069D0;
+}
+
+.bg-red {
+    background-color: #E14A3B;
+}
+
+.bg-blue {
+    background-color: #103754;
+}
+
+.bg-green {
+    background-color: #113946;
+}
+
+.bg-purple {
+    background-color: #3D2A49;
+}
+
+.bg-ct2-fourth {
+    background-color: $t2-fourth;
+}
+
+.bg-ct2-fifth {
+    background-color: $t2-fifth;
+}
+
+.bg-ct2-sixth {
+    background-color: $t2-sixth;
+}
+/* Textos */
+
+.text-cc-first {
+    color: $t1-first;
+}
+
+.text-cc-second {
+    color: $t1-second;
+}
+
+.text-cc-third {
+    color: $t1-third;
+}
+
+.text-cc-fourth {
+    color: $t1-fourth;
+}
+
+.text-ct2-first {
+    color: $t2-first;
+}
+
+.text-ct2-second {
+    color: $t2-second;
+}
+
+.text-ct2-third {
+    color: $t2-third;
+}
+
+.text-ct2-fourth {
+    color: $t2-fourth;
+}
+
+.text-ct2-fifth {
+    color: $t2-fifth;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-t2-dark-silver {
+    color: $t2-second;
+}
+
+.div-con-scroll::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.div-con-scroll::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Color de fondo de la pista de desplazamiento */
+    border-radius: 5px;
+}
+
+.div-con-scroll::-webkit-scrollbar-thumb {
+    background-color: $t2-fourth;
+    /* Color del botón de desplazamiento */
+    border-radius: 5px;
+    /* Radio de borde del botón de desplazamiento */
+}
+
+.max-content {
+    min-inline-size: max-content;
+}
+
+.nav-mobile {
+    a {
+        place-content: center;
+    }
+}
+
+.supercalc-button-svg-icon:hover {
+    svg {
+        path {
+            stroke: #f30ee4;
+        }
+    }
+}
+
+.align-kit-center {
+    text-align: -webkit-center;
+}
+
+/* Inicio */
+
+/* Hero */
+.img-profile {
+    mask-image: linear-gradient(black 90%, transparent);
+}
+
+/* Planes */
+
+/* Right arrow */
+#plans .slick-arrow.slick-next {
+    background-image: url("/src/assets/icons/arrow-base-black.png");
+    width: 24px;
+    height: 24px;
+    right: -10px;
+    transform: rotateZ(270deg);
+}
+
+#plans .slick-arrow.slick-next:hover {
+    background-image: url("/src/assets/icons/arrow-base-black.png");
+    right: -10px;
+}
+
+#plans .slick-next:before {
+    display: none;
+}
+
+/* Left arrow */
+#plans .slick-arrow.slick-prev {
+    background-image: url("/src/assets/icons/arrow-base-black.png");
+    width: 24px;
+    height: 24px;
+    left: -10px;
+    transform: rotateZ(90deg);
+    z-index: 10;
+}
+
+#plans .slick-arrow.slick-prev:hover {
+    background-image: url("/src/assets/icons/arrow-base-black.png");
+    transition: transform 0.3s ease-in-out;
+}
+
+#plans .slick-prev:before {
+    display: none;
+}
+
+/* Servicios */
+
+/* Right arrow */
+#services .slick-arrow.slick-next, #method .slick-arrow.slick-next {
+    background-image: url("/src/assets/icons/arrow-base.png");
+    width: 24px;
+    height: 24px;
+    right: -10px;
+    transform: rotateZ(270deg);
+}
+
+#services .slick-arrow.slick-next:hover, #method .slick-arrow.slick-next:hover {
+    background-image: url("/src/assets/icons/arrow-base.png");
+    right: -10px;
+}
+
+#services .slick-next:before, #method .slick-next:before {
+    display: none;
+}
+
+/* Left arrow */
+#services .slick-arrow.slick-prev, #method .slick-arrow.slick-prev {
+    background-image: url("/src/assets/icons/arrow-base.png");
+    width: 24px;
+    height: 24px;
+    left: -10px;
+    transform: rotateZ(90deg);
+    z-index: 10;
+}
+
+#services .slick-arrow.slick-prev:hover, #method .slick-arrow.slick-prev:hover {
+    background-image: url("/src/assets/icons/arrow-base.png");
+    transition: transform 0.3s ease-in-out;
+}
+
+#services .slick-prev:before, #method .slick-prev:before {
+    display: none;
+}
+
+#services .slick-dots li button:before, #method .slick-dots li button:before {
+    opacity: .25;
+    color: white;
+}
+
+#services .slick-dots li.slick-active button:before, #method .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+}
+
+@media only screen and (min-width: 200px) and (max-width: 299px) {
+}

@@ -1,27 +1,41 @@
 {
-  "name": "simple-light-react",
-  "version": "0.1.0",
+  "name": "multiapps-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "serve": "npm run build && http-server dist/",
+    "git-dev": "git add . && git commit -m \"fast fix commit from dev branch\" && git push origin dev-lucas",
+    "git-prod": "git add . && git commit -m \"fast fix commit\" && git push origin main",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "aos": "^3.0.0-beta.6",
+    "@emailjs/browser": "^4.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-flatpickr": "^3.10.13",
-    "react-router-dom": "^6.8.1",
-    "react-transition-group": "^4.4.5",
-    "sticky-js": "^1.3.0"
+    "react-intersection-observer": "^9.8.1",
+    "react-router-dom": "^6.21.3",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.7",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "sass": "^1.58.0",
-    "tailwindcss": "^3.2.6",
-    "vite": "^4.1.1"
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "sass": "^1.70.0",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animated": "^1.0.1",
+    "vite": "^5.0.8"
   }
 }
